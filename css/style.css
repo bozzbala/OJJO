@@ -14,7 +14,7 @@ Header
 */
 
 header{
-    background-image: url(../bgc.png);
+    background-image: url(../images/bgc.png);
     background-size: cover;
     background-position: center;
     height: 950px;
@@ -25,12 +25,17 @@ header{
 
 .top-line{
     width: 1110px;
-    display:flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     color: white;
     font-size: 14px;
     margin: 0px auto;
     padding-top: 25px;
+}
+
+.logo img{
+    margin: 0 100px;
 }
 
 .nav__items{
@@ -44,9 +49,6 @@ header{
 }
 
 
-
-.under-line{
-}
 
 .under-line__header{
     font-weight: 700;
@@ -99,8 +101,167 @@ header{
 .under-line__brand:last-child{
     border: none;
 }
+
+
 /* 
 
-
+Main
 
 */
+
+main{
+    background-color: white;
+}
+
+.section{
+    width: 1110px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subtitle{
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.jewelry__list{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jewelry__item, .jewelry__item_active{
+    width: 165px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.jewelry__item{
+    border: 1px solid #D6D6D6;
+    box-shadow: 6px 6px 1px #d6d6d6;
+}
+
+.jewelry__item_active{
+    background-color:#333333;
+    color: white;
+}
+
+.jewelry__categories{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 590px;
+}
+
+.jewelry__category{
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.jewelry__category p{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.jewelry__category:nth-child(1){
+    background-image: url(../images/jewelry_category1.png);
+    background-size: cover;
+}
+
+.jewelry__category:nth-child(2){
+    background-image: url(../images/jewelry_category2.png);
+    background-size: cover;
+}
+
+.jewelry__category:nth-child(3){
+    background-image: url(../images/jewelry_category3.png);
+    background-size: cover;
+}
+
+.jewelry__category:nth-child(4){
+    background-image: url(../images/jewelry_category4.png);
+    background-size: cover;
+}
+
+.jewelry__category:nth-child(5){
+    background-image: url(../images/jewelry_category5.png);
+    background-size: cover;
+}
+
+.jewelry__category:nth-child(6){
+    background-image: url(../images/jewelry_category6.png);
+    background-size: cover;
+}
+
+
+.our_salons{
+    background-image: url(../images/our_salons.png);
+    height: 541px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.our_salons__subtitle{
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.our_salons__title{
+    font-size: 30px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 45px;
+}
+
+.our_salons__text{
+    width: 730px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.our_salons__button{
+    font-size: 18px;
+    padding: 15px 35px;
+    color: black;
+    width:max-content;
+    margin: 60px auto 0 auto;
+    background-color: white;
+    transition: 0.5s;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+.our_salons__button:hover{
+    box-shadow: 0px 0px 4px 4px white;
+}

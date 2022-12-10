@@ -26,7 +26,6 @@ header{
 .top-line{
     width: 1110px;
     display:flex;
-    justify-content: space-between;
     align-items: center;
     color: white;
     font-size: 14px;

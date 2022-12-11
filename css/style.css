@@ -305,7 +305,15 @@ main{
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 15px 35px;
-    margin: 60px auto 120px;
+    margin: 60px auto 0px;
+    box-shadow: 0px 0px 0px 0px white;
+    transition: 0.3s;
+}
+
+.blog__button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 0px 4px black;
 }
 
 .blog__categories{
@@ -316,3 +324,31 @@ main{
     width: 100%;
 }
 
+
+
+
+
+
+.gallery__categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery__category{
+    width: 25%;
+    height: 300px;
+}
+
+.gallery__category img{
+    height: 100%;
+}
+
+.gallery__video{
+    width: 50%;
+    height: 300px;
+}
+
+.gallery__video img{
+    height: 100%;
+}
